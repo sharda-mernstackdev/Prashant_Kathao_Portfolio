@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Footer</title>
+  <link rel="stylesheet" href="path/to/fontawesome/css/all.min.css">
+  <style>
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+    }
+
+    .footer .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer .footer-col {
+      flex: 1;
+      margin: 10px;
+    }
+
+    .footer .footer-col img {
+      max-width: 100%;
+    }
+
+    .footer .footer-col h4, .footer .footer-col h3, .footer .footer-col ul, .footer .footer-col a {
+      margin: 10px 0;
+    }
+
+    .footer .footer-col ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer .footer-col ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .footer .social-links a {
+      color: white;
+      margin-right: 10px;
+    }
+
+    /* Styles for mobile screens */
+    @media (max-width: 768px) {
+      .footer .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .footer .footer-col {
+        margin: 20px 0;
+        text-align: center;
+      }
+
+      .footer .footer-col ul {
+        padding-left: 0;
+      }
+
+      .footer .footer-col img {
+        width: 50%;
+      }
+
+      .footer .social-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <img src="image/pro5logo.png" id="footerlogo">
+      </div>
+      <div class="footer-col">
+        <h4>Menus</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="gallary.html">Gallary</a></li>
+          <li><a href="contact_us.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <ul>
+          <h4>Contact us</h4>
+          <h3>PSK TECHNOLOGIES PVT.LTD.Fortune mall, sitaburdi Nagpur</h3>
+          <h3>Email.Id: hr@prashantkadhao.com</h3>
+          <h3>Mobile.No: 9422123343</h3>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
